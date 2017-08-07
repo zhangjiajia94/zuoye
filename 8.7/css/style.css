@@ -1,0 +1,126 @@
+body {
+  position: absolute;
+  width: 100%;
+  font-size: .12rem;
+  top: 0;
+  bottom: 0;
+  background-color: #f6fafa;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+header {
+  height: .45rem;
+  line-height: .45rem;
+  background-color: #fff;
+  position: relative;
+  font-size: .14rem; }
+  header .licai {
+    text-align: center; }
+    header .licai span {
+      display: inline-block;
+      width: .6rem; }
+    header .licai .now {
+      color: #fd0000;
+      border-bottom: 2px solid #fd0000; }
+  header .right {
+    position: absolute;
+    right: 3%;
+    top: 0;
+    color: #b9b9b9; }
+    header .right i {
+      font-size: .1rem; }
+
+.con {
+  -webkit-flex: 1; }
+  .con .nav {
+    width: 90%;
+    margin: .1rem 0 .1rem 5%;
+    background: #fff;
+    line-height: .25rem; }
+    .con .nav ul {
+      display: -webkit-flex;
+      text-align: center;
+      border: 1.5px solid #dbdbdb;
+      border-radius: .03rem; }
+      .con .nav ul li {
+        -webkit-flex: 1;
+        border-right: 1.5px solid #dbdbdb; }
+        .con .nav ul li:last-child {
+          border: none; }
+      .con .nav ul .cur {
+        color: #fff;
+        background-color: #fe4d4d; }
+  .con .search {
+    background: #fff; }
+    .con .search ul {
+      display: -webkit-flex; }
+      .con .search ul li {
+        -webkit-flex: 1;
+        text-align: center;
+        padding: .05rem 0;
+        border-right: 1px solid #f8f8f8;
+        font-weight: bold; }
+        .con .search ul li:last-child {
+          border: none; }
+      .con .search ul .kai {
+        color: #fe4d4d; }
+  .con .main {
+    background: #fff;
+    height: 4rem;
+    width: 100%;
+    position: absolute;
+    overflow: hidden; }
+    .con .main ul {
+      padding: .05rem 0;
+      border-top: 1px solid #ccc;
+      position: relative; }
+      .con .main ul .money {
+        padding: 5%;
+        padding-left: 20%;
+        position: relative; }
+        .con .main ul .money i, .con .main ul .money span {
+          position: absolute; }
+        .con .main ul .money i {
+          left: 15%;
+          color: #d4d4d4; }
+        .con .main ul .money span {
+          right: 3%;
+          display: inline-block;
+          padding: .01rem;
+          color: #a0dda2;
+          border: 1px solid #a0dda2;
+          border-radius: .1rem; }
+      .con .main ul .shou {
+        display: -webkit-flex; }
+        .con .main ul .shou ol {
+          -webkit-flex: 1;
+          border-right: 1px solid #f9f9f9;
+          text-align: center; }
+          .con .main ul .shou ol li {
+            padding: .03rem 0; }
+            .con .main ul .shou ol li i {
+              font-size: .1rem;
+              color: #dcdcdc; }
+            .con .main ul .shou ol li .like {
+              color: #ffab1e; }
+          .con .main ul .shou ol .kan {
+            color: #60c0f2; }
+      .con .main ul .pic {
+        position: absolute;
+        top: 0;
+        left: 0; }
+
+footer {
+  height: .48rem;
+  background-color: #fff;
+  display: -webkit-flex;
+  align-items: center;
+  font-size: .14rem; }
+  footer div {
+    -webkit-flex: 1;
+    text-align: center;
+    color: #777777; }
+  footer .cai {
+    color: #f91a1a; }
+
+/*# sourceMappingURL=style.css.map */

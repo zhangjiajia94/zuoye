@@ -1,0 +1,160 @@
+body{
+	position:absolute;
+	width:100%;
+	font-size:.12rem;
+	top:0;
+	bottom:0;
+	background-color:#f6fafa;
+	display:-webkit-flex;
+	-webkit-flex-direction:column;
+}
+header{
+	height:.45rem;
+	line-height:.45rem;
+	background-color:#fff;
+	position:relative;
+	font-size:.14rem;
+	.licai{
+		text-align:center;
+		span{
+			display:inline-block;
+			width:.6rem;
+		}
+		.now{
+			color:#fd0000;
+			border-bottom:2px solid #fd0000;
+		}
+	}
+	.right{
+		position:absolute;
+		right:3%;
+		top:0;
+		color:#b9b9b9;
+		i{
+			font-size:.1rem;
+		}
+	}
+}
+.con{
+	-webkit-flex:1;
+	.nav{
+		width:90%;
+		margin:.1rem 0 .1rem 5%;
+		background:#fff;
+		line-height:.25rem;
+		ul{
+			display:-webkit-flex;
+			text-align:center;
+			border:1.5px solid #dbdbdb;
+			border-radius:.03rem;
+			li{
+				-webkit-flex:1;
+				border-right:1.5px solid #dbdbdb;
+				&:last-child{
+					border:none;
+				}
+			}
+			.cur{
+				color:#fff;
+				background-color:#fe4d4d;
+			}
+		}
+	}
+	.search{
+		background:#fff;
+		ul{
+			display:-webkit-flex;
+			li{
+				-webkit-flex:1;
+				text-align:center;
+				padding:.05rem 0;
+				border-right:1px solid #f8f8f8;
+				font-weight:bold;
+				&:last-child{
+					border:none;
+				}
+			}
+			.kai{
+				color:#fe4d4d;
+			}
+		}
+	}
+	.main{
+		background:#fff;
+		height:4rem;
+		width:100%;
+		position:absolute;
+		overflow:hidden;
+		ul{
+			padding:.05rem 0;
+			border-top:1px solid #ccc;
+			position:relative;
+			.money{
+				padding:5%;
+				padding-left:20%;
+				position:relative;
+				i,span{
+					position:absolute;
+				}
+				i{
+					left:15%;
+					color:#d4d4d4;
+				}
+				span{
+					right:3%;
+					display:inline-block;
+					padding:.01rem;
+					color:#a0dda2;
+					border:1px solid #a0dda2;
+					border-radius:.1rem;
+				}
+			}
+			.shou{
+				display:-webkit-flex;
+				ol{
+					-webkit-flex:1;
+					border-right:1px solid #f9f9f9;
+					text-align:center;
+					li{
+						padding:.03rem 0;
+						i{
+							font-size:.1rem;
+							color:#dcdcdc;
+						}
+						.like{
+							color:#ffab1e;
+						}
+
+					}
+					.kan{
+							color:#60c0f2;
+					}
+					
+				}
+
+			}
+			.pic{
+				position:absolute;
+				top:0;
+				left:0;
+			}
+		}
+
+	}
+
+}
+footer{
+	height:.48rem;
+	background-color:#fff;
+	display:-webkit-flex;
+	align-items:center;
+	font-size:.14rem;
+	div{
+		-webkit-flex:1;
+		text-align:center;
+		color:#777777;
+	}
+	.cai{
+		color:#f91a1a;
+	}
+}
